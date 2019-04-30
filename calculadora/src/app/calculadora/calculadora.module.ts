@@ -9,11 +9,11 @@ import { CalculadoraService } from './services';
   imports: [
     CommonModule
   ],
-  exports:[
-  	CalculadoraComponent
+  exports: [
+    CalculadoraComponent
   ],
-  providers:[
-  	CalculadoraService
+  providers: [
+    CalculadoraService
   ]
 })
 export class CalculadoraModule { }
